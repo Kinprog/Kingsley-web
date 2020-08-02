@@ -70,24 +70,6 @@ const navbar=document.querySelector("#navbar");
       	})
       })
 
-alert("Hey, kindly leave a message..Thanks:)")
-
-// Smooth Scrolling
-$("navbar a, .btn").on("click", function(event) {
-	if (this.hash !=="") {
-		event.preventDefault();
-
-		const hash = this.hash;
-
-		$("html, body").animate(
-		{
-			scrollTop: $(hash).offset().top - 80
-		},
-		800
-		);
-	}
-})
-
 // nav-drop 
 
 const navDrop=document.querySelector(".navdrop");
@@ -96,3 +78,21 @@ navDrop.addEventListener("click",function(){
 	  document.querySelector("#navbar ul").classList.toggle("show")
 })
 
+// Smooth Scrolling
+$("navbar a, .btn").on("click", function(event) {
+  if (this.hash !=="") {
+    event.preventDefault();
+
+    const hash = this.hash;
+
+    $("html, body").animate(
+    {
+      scrollTop: $(hash).offset().top - 80
+    },
+    800
+    );
+  }
+})
+
+
+alert("Hey, kindly leave a message..Thanks:)")
