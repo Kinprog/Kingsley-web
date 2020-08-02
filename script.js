@@ -55,6 +55,8 @@ galleryItem.forEach(function(element){
 	})
 })
 
+alert("Hey, kindly leave a message..Thanks:)")
+
 // navbar links
 
 const navbar=document.querySelector("#navbar");
@@ -93,6 +95,3 @@ $("navbar a, .btn").on("click", function(event) {
     );
   }
 })
-
-
-alert("Hey, kindly leave a message..Thanks:)")
