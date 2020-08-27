@@ -181,9 +181,9 @@ body {
 	color: #000;
 }
 #about .about-content .about-text p{
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 500;
-	line-height: 24px;
+	line-height: 26px;
 	color: #333;
 }
 
@@ -637,12 +637,13 @@ footer p {
     padding: 10px;
     position: relative;
     }
-#about .about-content .about-text h6 {
+#about .about-content .about-text p {
     font-size: 15px;
     font-weight: 500;
     max-width: 100%;
     color: #000;
     padding: 5%;
+    line-height: 25px;
     }
   .showcase-content h1 {
      font-size: 4rem;
@@ -740,12 +741,13 @@ footer p {
     flex: 0 0 100%;
     max-width: 100%;
     }
-#about .about-content .about-text h6 {
+#about .about-content .about-text p {
     font-size: 15px;
     font-weight: 500;
     max-width: 100%;
     color: #000;
     padding: 5%;
+    line-height: 25px;
     }
   #contact .section-title h2 {
     text-align: center;
