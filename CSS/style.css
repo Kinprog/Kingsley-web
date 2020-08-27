@@ -630,6 +630,20 @@ footer p {
     display: block;
     border-radius: 25px;
 }
+
+#about .about-content .about-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 10px;
+    position: relative;
+    }
+#about .about-content .about-text h6 {
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 100%;
+    color: #000;
+    padding: 5%;
+    }
   .showcase-content h1 {
      font-size: 4rem;
  }
@@ -722,6 +736,17 @@ footer p {
     display: block;
     border-radius: 25px;
 }
+#about .about-content .about-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+#about .about-content .about-text h6 {
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 100%;
+    color: #000;
+    padding: 5%;
+    }
   #contact .section-title h2 {
     text-align: center;
     font-size: 2rem;
