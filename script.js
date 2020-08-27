@@ -55,7 +55,6 @@ galleryItem.forEach(function(element){
 	})
 })
 
-alert("Hey, kindly leave a message..Thanks:)")
 
 // navbar links
 
@@ -95,3 +94,5 @@ $("navbar a, .btn").on("click", function(event) {
     );
   }
 })
+
+alert("Hey, kindly leave a message..Thanks:)")
